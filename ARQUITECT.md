@@ -81,20 +81,20 @@ Seleccionamos los componentes críticos de la arquitectura de servicios + evento
 ![Capturatabla](https://github.com/user-attachments/assets/68e9facc-0252-4ac2-99c3-10e63fac0408)
 
 
-Detalle
-*	CartService
-Nº interfaces: 0
-Nº clases totales: 1
-Salidas: 1 (OrderService)
-Entradas: 0
-A = 0 / 1 = 0
-I = 1 / (1+0) = 1
-D = |0 + 1 -1| = 0
+### Detalle
+* CartService
+** Nº interfaces: 0
+** Nº clases totales: 1
+** Salidas: 1 (OrderService)
+*** Entradas: 0
+*** A = 0 / 1 = 0
+*** I = 1 / (1+0) = 1
+*** D = |0 + 1 -1| = 0
 
 *	OrderService
-Nº interfaces: 1 (IOrderService)
-Nº clases totales: 3 (IOrderService, OrderServiceImpl, repositorio)
-Salidas: 2 (InventoryService, NotificationService)
+** Nº interfaces: 1 (IOrderService)
+** Nº clases totales: 3 (IOrderService, OrderServiceImpl, repositorio)
+** Salidas: 2 (InventoryService, NotificationService)
 Entradas: 1 (CartService)
 A = 1/3 = 0.33
 I = 2 / (2+1) = 0.66
