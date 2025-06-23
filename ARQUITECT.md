@@ -100,7 +100,7 @@ Seleccionamos los componentes críticos de la arquitectura de servicios + evento
 * A = 1/3 = 0.33
 * I = 2 / (2+1) = 0.66
 * D = |0.33 + 0.66 -1| = 0.01
-* 
+  
 ![WhatsApp Image 2025-06-23 at 3 41 07 PM](https://github.com/user-attachments/assets/3e89c96c-c772-4e4d-a51a-33c4c64fc32f)
 
 #### InventoryService:
