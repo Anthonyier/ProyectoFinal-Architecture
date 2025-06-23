@@ -68,7 +68,66 @@ Escogimos los estilos distribuidos ya que son los que cumplen con darnos un buen
 
 ## 5.​ Calcular distancia desde la secuencia principal(componentes críticos)
 
+Seleccionamos los componentes críticos de la arquitectura de servicios + eventos, sobre los cuales calcularemos la métrica de distancia desde la secuencia principal:
+●	CartService
+●	OrderService
+●	InventoryService
+●	SupplierService
+●	NotificationService
+![WhatsApp Image 2025-06-23 at 2 13 31 PM (1)](https://github.com/user-attachments/assets/350faa58-e6c2-4509-9e49-f246d02ed9c1)
 
+## 6. Distancia desde la secuencia principal
+
+![Capturatabla](https://github.com/user-attachments/assets/68e9facc-0252-4ac2-99c3-10e63fac0408)
+
+
+Detalle
+●	CartService
+Nº interfaces: 0
+Nº clases totales: 1
+Salidas: 1 (OrderService)
+Entradas: 0
+A = 0 / 1 = 0
+I = 1 / (1+0) = 1
+D = |0 + 1 -1| = 0
+
+●	OrderService
+Nº interfaces: 1 (IOrderService)
+Nº clases totales: 3 (IOrderService, OrderServiceImpl, repositorio)
+Salidas: 2 (InventoryService, NotificationService)
+Entradas: 1 (CartService)
+A = 1/3 = 0.33
+I = 2 / (2+1) = 0.66
+D = |0.33 + 0.66 -1| = 0.01
+![WhatsApp Image 2025-06-23 at 3 41 14 PM](https://github.com/user-attachments/assets/4d1d0a20-d263-4df8-9b31-716aaf64e926)
+
+●	InventoryService
+Nº interfaces: 0
+Nº clases totales: 1
+Salidas: 2 (SupplierService, NotificationService)
+Entradas: 1 (OrderService)
+A = 0/1 = 0
+I = 2 / (2+1) = 0.66
+D = |0 + 0.66 -1| = 0.34
+![WhatsApp Image 2025-06-23 at 3 41 07 PM](https://github.com/user-attachments/assets/3e89c96c-c772-4e4d-a51a-33c4c64fc32f)
+
+●	SupplierService
+Nº interfaces: 0
+Nº clases totales: 1
+Salidas: 0
+Entradas: 1 (InventoryService)
+A = 0
+I = 0 / 1 = 0
+D = |0 + 0 -1| = 1
+
+●	NotificationService
+Nº interfaces: 0
+Nº clases totales: 1
+Salidas: 0
+Entradas: 2 (OrderService, InventoryService)
+A = 0
+I = 0 / (0+2) = 0
+D = |0 + 0 -1| = 1
 
 
 ## Autoevaluación sobre participación en equipo
