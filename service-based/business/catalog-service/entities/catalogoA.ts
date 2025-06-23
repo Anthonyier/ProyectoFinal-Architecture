@@ -1,0 +1,6 @@
+
+
+class catalogA extends catalog{
+
+    
+}

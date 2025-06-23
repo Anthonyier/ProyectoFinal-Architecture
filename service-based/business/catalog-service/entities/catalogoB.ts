@@ -1,0 +1,4 @@
+
+class catalogoB extends catalog{
+    
+}
