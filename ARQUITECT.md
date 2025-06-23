@@ -54,11 +54,11 @@ Escogimos los estilos distribuidos ya que son los que cumplen con darnos un buen
 ![Hola]()
 
 ### Containers
-![Containers]()![WhatsApp Image 2025-06-22 at 9 49 44 PM](https://github.com/user-attachments/assets/43a0190f-94f8-4a39-830c-d987165c29f7)
+![WhatsApp Image 2025-06-22 at 9 49 44 PM](https://github.com/user-attachments/assets/43a0190f-94f8-4a39-830c-d987165c29f7)
 
 
 ### Components
-![Components]()
+![WhatsApp Image 2025-06-22 at 9 49 44 PM (1)](https://github.com/user-attachments/assets/23beb99d-d536-4061-9486-aaf7ccd238ba)
 
 
 ## 4.​ Proponer organización de código
