@@ -51,7 +51,7 @@ Escogimos los estilos distribuidos ya que son los que cumplen con darnos un buen
 ## 3.​ Representación arquitectónica (con C4)
 
 ### System context
-![WhatsApp Image 2025-06-23 at 10 33 56 AM](https://github.com/user-attachments/assets/461e83a1-acd3-4cde-935f-ca899c127a2e)
+![Screenshot_9](https://github.com/user-attachments/assets/cb828125-425f-45e0-b02a-4dc8858375cc)
 
 
 ### Containers
